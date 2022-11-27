@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+section{
+    padding: 50px 100px;
+}
+
+header{
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: khaki;
+    padding: 15px 100px;
+}
+
+.navibar{
+    display: flex;
+}
+
+.navibar li{
+    position: relative;
+}
+
+.navibar a{
+    font-size: medium
+    padding: 10px 20px;
+    color: #444;
+    font-weight: 500;
+}
+
+.bookbutton{
+    padding: 10px 20px;
+    background: pink;
+    color: white;
+    border-radius: .5rem;
+}
+
+.bookbutton:hover{ // adds zoom effect to book button
+    transform: scale(1.1);
+}
+
+.logo{
+    align-items:
+}
+
+body{
+    scroll-behavior: smooth;
+}
