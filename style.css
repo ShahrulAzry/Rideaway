@@ -1,30 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
     list-style: none;
-    text-transform: capitalize;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
 }
-
 section{
     padding: 50px 100px;
 }
 
+.main{
+    margin-top: 150px;
+}
+
 header{
-    font-family: 'Roboto', sans-serif;
     position: fixed;
     width: 100%;
     top: 0;
     right: 0;
-    z-index: 100;
+    z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: khaki;
+    background: yellow;
     padding: 15px 100px;
 }
 
@@ -37,27 +39,22 @@ header{
 }
 
 .navibar a{
-    font-size: medium
-    padding: 10px 20px;
-    color: #444;
+    font-size: 1rem;
+    padding: 15px;
     font-weight: 500;
 }
-
-.bookbutton{
+.rent-btn{
     padding: 10px 20px;
-    background: pink;
     color: white;
+    background: rgb(95, 220, 95);
     border-radius: .5rem;
+    font-weight: 800;
 }
-
-.bookbutton:hover{ // adds zoom effect to book button
+.rent-btn:hover{
     transform: scale(1.1);
 }
 
-.logo{
-    align-items:
-}
-
-body{
-    scroll-behavior: smooth;
-}
+img {
+    height: 100px;
+    width: 200px;
+  }

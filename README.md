@@ -1,4 +1,4 @@
-# Developing a website for my fictional rental company named "Rideaway!"
+# Developing a website for my fictional motorbike rental company named "Rideaway!"
 
 One or two paragraphs providing an overview of your project. Tell us about your project.
  
