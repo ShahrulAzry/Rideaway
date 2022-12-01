@@ -1,60 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.rideaway-logo{
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    scroll-padding-top: 2rem;
-    scroll-behavior: smooth;
-    list-style: none;
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-}
-section{
-    padding: 50px 100px;
+    background-color: #24252a;
 }
 
-.main{
-    margin-top: 150px;
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
 }
 
 header{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    right: 0;
-    z-index: 1000;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    background: yellow;
-    padding: 15px 100px;
+    align-items: center;
+    padding: 30px 10%;
+
 }
 
-.navibar{
-    display: flex;
+.nav-bar{
+    list-style: none;
 }
 
-.navibar li{
-    position: relative;
+.nav-bar li{
+    display: inline-block;
+    padding: 0px 20px;
 }
 
-.navibar a{
-    font-size: 1rem;
-    padding: 15px;
-    font-weight: 500;
-}
-.rent-btn{
-    padding: 10px 20px;
-    color: white;
-    background: rgb(95, 220, 95);
-    border-radius: .5rem;
-    font-weight: 800;
-}
-.rent-btn:hover{
-    transform: scale(1.1);
+.nav-bar li a{
+    transition: all 0.3s ease 0s;
 }
 
-img {
-    height: 100px;
-    width: 200px;
-  }
+.nav-bar li a:hover{
+    color: #0088a9
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,168,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,168,0.8);
+}
+
