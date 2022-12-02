@@ -1,6 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
 
+#bgVideo {
+  background-size: cover;
+  position: fixed;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  filter: brightness(25%);
+}
+
 .rideaway-logo{ 
     cursor: pointer;
     width: 200px;
@@ -11,8 +24,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: white;
+    font-family: "Montserrat", sans-serif;
 }
 
+/* styling for Navigation Bar's button texts */
 li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -21,6 +37,7 @@ li, a, button {
     text-decoration: none;
 }
 
+/* add zoom effect upon hovering the button by scaling */
 .cta:hover{
     transform: scale(1.1);
 }
@@ -32,7 +49,8 @@ header{
     padding: 30px 10%;
 }
 
-h1{
+
+.slogan h1{
   font-family: "Syncopate", sans-serif;
   color: white;
   text-transform: uppercase;
@@ -42,10 +60,14 @@ h1{
   text-align: center;
 }
 
-h1 span{
+.slogan h1 span{
   display: block;
   font-size: 10vw;
   letter-spacing: -1.3vw;
+}
+
+.ride{
+  color: white;
 }
 
 .nav-bar{
@@ -78,20 +100,7 @@ button:hover{
     background-color: rgba(0,136,168,0.8);
 }
 
-#bgVideo {
-    background-size: cover;
-    position: fixed;
-    object-fit: cover;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    filter: brightness(25%);
-  }
-
-  footer{
+footer{
     position: fixed;
     bottom: 0px;
     width: 100%;
@@ -144,3 +153,51 @@ button:hover{
   .left .content .social a span:hover{
     background: #f12020;
   }
+
+  /* aligning text of "How It Works" to centre*/
+  .heading{
+    text-align: center;
+  }
+
+  .heading span{
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .heading h1{
+    font-size: 2rem;
+  }
+
+  .ride-container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px,auto));
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+.ride-container .box{
+  text-align: center;
+  padding: 20px;
+}
+
+.ride-container .box img{
+  font-size: 34px;
+  padding: 10px;
+  background: #eeeff1;
+  border-radius: 0.5rem;
+}
+
+/* changing font size of "Choose a Location etc... */
+.ride-container .box h2{ 
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 1.4rem 0 0.5rem;
+}
+
+.rent-procedure{
+background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  position: relative;
+  padding: 1rem;
+}
