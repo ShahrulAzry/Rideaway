@@ -101,11 +101,10 @@ button:hover{
 }
 
 footer{
-    position: fixed;
-    bottom: 0px;
+    position: relative;
+    bottom: 0;
     width: 100%;
     background: #111;
-    color: white;
   }
 
   .main-content{
@@ -196,8 +195,46 @@ footer{
 }
 
 .rent-procedure{
-background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   color: white;
   position: relative;
   padding: 1rem;
+}
+
+/* for Browse Section */
+
+.browse-heading h1{
+  text-align: center;
+}
+
+/* for About Us Section */
+
+.about{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .content img{
+  height: auto;
+  width: 600px;
+  max-width: 100%;
+}
+
+.text{
+  width: 550px;
+  max-width: 100%
+  padding: 0 10px;
+}
+
+.content{
+  width: 1280px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
