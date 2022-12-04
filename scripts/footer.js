@@ -12,10 +12,10 @@ class Footer extends HTMLElement {
             <h2>About Us</h2>
             <div class="content">
               <h5>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
-                sint magnam, ducimus sequi explicabo, similique, iusto obcaecati
-                atque unde dignissimos temporibus id tenetur alias repellat et!
-                Nulla enim quisquam tenetur?
+                Rideaway Rentals is an emerging motorbike rental company,
+                dedicated to providing Singaporeans the best motorcycle
+                renting service. Affordable rates and well-maintained bikes
+                are what you can expect from us.
               </h5>
             </div>
           </div>
@@ -25,20 +25,20 @@ class Footer extends HTMLElement {
             <div class="content">
               <div class="place">
                 <span class="fas fa-map-marker-alt icon"></span>
-                <h5 class="text">11 Kaki Bukit Ave 2, #01-01 Rideaway Rentals Pte Ltd</h5>
+                <h5 class="text">#01-01 Rideaway Rentals Pte Ltd</h5>
               </div>
               <div class="phone">
                 <span class="fas fa-phone-alt"></span>
-                <h5 class="text">+65-83691922</h5>
+                <h5 class="text">83691922</h5>
               </div>
               <div class="email">
                 <span class="fas fa-envelope"></span>
                 <span class="text">RideawayRentals@gmail.com</span>
               </div>
               <div class="social">
-                <a href="#"><span class="fab fa-facebook-f"></span></a>
-                <a href="#"><span class="fab fa-twitter"></span></a>
-                <a href="#"><span class="fab fa-instagram"></span></a>
+                <a href="https://www.facebook.com/"><span class="fab fa-facebook-f"></span></a>
+                <a href="https://twitter.com/i/flow/login"><span class="fab fa-twitter"></span></a>
+                <a href="https://www.instagram.com/accounts/login/"><span class="fab fa-instagram"></span></a>
               </div>
             </div>
           </div>
@@ -55,7 +55,7 @@ class Footer extends HTMLElement {
                 <textarea cols="25" rows="2" required></textarea>
               </div>
               <div class="contact-button">
-                <button type="Submit">Send</button>
+                <button type="Submit" onclick = "location.href='https://wa.me/83691922'">Submit</button>
               </div>
             </form>
           </div>

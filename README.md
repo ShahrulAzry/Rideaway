@@ -1,10 +1,9 @@
 # Developing a website for my fictional motorbike rental company named "Rideaway!"
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
- 
-## Design Process
- 
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+Rideaway Rentals, is my fictional, emerging motorbike rental company. A website is then
+developed to showcase our services we provide, which is mainly bike rental.
+
+This website is for people who are looking to rent motorbikes online
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
@@ -52,12 +51,10 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Credits
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
 - The photos used in this site were obtained from ...
+The photos used in this site were obtained from Vroom Leasing. (https://vroomleasing.com.sg/)
 
 ### Acknowledgements
 
-- I received inspiration for this project from X

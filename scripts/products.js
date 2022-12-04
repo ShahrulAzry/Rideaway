@@ -8,7 +8,7 @@
       this.innerHTML = `
       <section class="product-section">
         <div class="product-text">
-          <h1>Popular <span>Products</span></h1>
+          <h1>Browse Our <span>Bikes</span></h1>
         </div>
         <div class="product-center box">
           <div class="ac">

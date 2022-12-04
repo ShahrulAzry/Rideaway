@@ -9,10 +9,9 @@ class BrowseByCategory extends HTMLElement {
     <div class="browse-container">
       <div class="browse-heading">
         <h1>Browse By Category</h1>
-        <h3>Vroom Leasing Rental Services</h3>
+        <h3>Rideaway Rentals</h3>
         <h5>
-          Explore our selection of Class 2, 2A & 2B motorcycles. The longer
-          you rent, the cheaper the rates.
+          Explore our selection of Class 2, 2A & 2B motorcycles!
         </h5>
       </div>
       <div class="browse-motorbikes">
@@ -28,7 +27,6 @@ class BrowseByCategory extends HTMLElement {
               The basic motorcycle license entitles you to ride bikes with
               engine capacity below 200cc.
             </h5>
-            <a href="#">Browse Bikes <span class="fas fa-arrow-right"></span></a>
           </div>
         </div>
         <div class="browse-motorbike-column">
@@ -38,12 +36,11 @@ class BrowseByCategory extends HTMLElement {
             loading="lazy"
           />
           <div class="browse-description">
-            <h2>Class 2B</h2>
+            <h2>Class 2A</h2>
             <h5>
               The basic motorcycle license entitles you to ride bikes with
-              engine capacity below 200cc.
+              engine capacity 201cc - 400cc.
             </h5>
-            <a href="#">Browse Bikes <span class="fas fa-arrow-right"></span></a>
           </div>
         </div>
         <div class="browse-motorbike-column">
@@ -53,17 +50,16 @@ class BrowseByCategory extends HTMLElement {
             loading="lazy"
           />
           <div class="browse-description">
-            <h2>Class 2B</h2>
+            <h2>Class 2</h2>
             <h5>
               The basic motorcycle license entitles you to ride bikes with
-              engine capacity below 200cc.
+              engine capacity above 400CC.
             </h5>
-            <a href="#">Browse Bikes <span class="fas fa-arrow-right"></span></a>
           </div>
         </div>
       </div>
       <div class="browse-button">
-        <button onClick="window.location.href='pages/all-products.html';">BROWSE ALL BIKES</button>
+        <button onClick="window.location.href='all-products.html';">BROWSE ALL BIKES</button>
       </div>
     </div>
   </section>

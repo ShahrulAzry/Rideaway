@@ -58,9 +58,10 @@ img {
   right: 0;
   bottom: 0;
   z-index: -1;
-  filter: brightness(25%);
+  filter: brightness(50%);
 }
 
+/* styling for my company's Logo! */
 .rideaway-logo {
   cursor: pointer;
   width: 200px;
@@ -88,7 +89,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .slogan h1 {
