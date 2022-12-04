@@ -17,7 +17,7 @@ it accordingly, but goes berserk when the screen size goes below 410px x 514px (
 on all options, including mid and low tier mobile phones. The website does not seem to be taxing
 on resources so I am happy about that.
 
-## Credits and Acknowledgement
+## Credits, References and Disclaimer
 Rideaway logo is owned by me. Created in Adobe Illustrator.
 
 I do not own any photos used in the creation of this website. I have placed the link to every asset I have used here in this section.
@@ -27,5 +27,15 @@ https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.123rf.com%2Fphoto_80162936
 
 All bike photos obtained from Vroom Leasing: https://vroomleasing.com.sg/
 
-Website video background: https://www.youtube.com/watch?v=7f-aExAWsOs
+Website video background source: https://www.youtube.com/watch?v=7f-aExAWsOs
+Website video reference: https://www.youtube.com/watch?v=emL9dkijfZY
+
+Creating of nav bar reference: https://www.youtube.com/watch?v=PwWHL3RyQgk&t=37s
+
+
+
+
+
+
+
 

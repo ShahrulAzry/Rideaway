@@ -20,7 +20,7 @@ class Home extends HTMLElement {
             
             <div class="ride-container">
                 <div class="box">
-                    <img src="assets/box-icons/bxs-map.svg">
+                    <img src="assets/box-icons/bx-search-alt.svg">
                     <h2> Browse For Bikes </h2>
                     <p> You have came to the right place.
                     Affordable rates and well-maintained bikes await you here at
@@ -35,7 +35,7 @@ class Home extends HTMLElement {
                 </div> 
             
                 <div class="box">
-                    <img src="assets/box-icons/bx-select-multiple.svg">
+                    <img src="assets/box-icons/bxs-phone-call.svg">
                     <h2> Contact Us </h2>
                     <p> Once you have browsed through our bike catalogue and made up your mind, contact us to confirm your booking with us! :)
                     We'll get back to you asap. </p>
