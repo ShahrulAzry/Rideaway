@@ -17,7 +17,7 @@ class BrowseByCategory extends HTMLElement {
       <div class="browse-motorbikes">
         <div class="browse-motorbike-column">
           <img
-            src="assets/bikes/Honda-CBF150R-Repsol.jpg"
+            src="assets/bikes/2B/Yamaha-XSR155.jpg"
             alt=""
             loading="lazy"
           />
@@ -31,7 +31,7 @@ class BrowseByCategory extends HTMLElement {
         </div>
         <div class="browse-motorbike-column">
           <img
-            src="assets/bikes/Honda-CBF150R-Repsol.jpg"
+            src="assets/bikes/2A/Suzuki-DRZ400-Yoshi.jpg"
             alt=""
             loading="lazy"
           />
@@ -45,7 +45,7 @@ class BrowseByCategory extends HTMLElement {
         </div>
         <div class="browse-motorbike-column">
           <img
-            src="assets/bikes/Honda-CBF150R-Repsol.jpg"
+            src="assets/bikes/2/YamahaR6.jpg"
             alt=""
             loading="lazy"
           />
