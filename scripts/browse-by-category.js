@@ -8,10 +8,10 @@ class BrowseByCategory extends HTMLElement {
     <section class="browse-section" id="browse-by-category">
     <div class="browse-container">
       <div class="browse-heading">
-        <h1>Browse By Category</h1>
+        <h1>Browse</h1>
         <h3>Rideaway Rentals</h3>
         <h5>
-          Explore our selection of Class 2, 2A & 2B motorcycles!
+          Catalogue preview of our Class 2, 2A & 2B motorcycles!
         </h5>
       </div>
       <div class="browse-motorbikes">
@@ -59,7 +59,7 @@ class BrowseByCategory extends HTMLElement {
         </div>
       </div>
       <div class="browse-button">
-        <button onClick="window.location.href='all-products.html';">BROWSE ALL BIKES</button>
+        <button onClick="window.location.href='all-products.html';">BROWSE POPULAR BIKES</button>
       </div>
     </div>
   </section>

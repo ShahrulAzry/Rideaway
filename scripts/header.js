@@ -21,7 +21,7 @@ class Header extends HTMLElement {
            <nav>
             <div class="topnav" id="myTopnav">
                 <a href="index.html" class="active">Home</a>
-                <a href="#browse-by-category">Browse By Category</a>
+                <a href="#browse-by-category">Browse</a>
                 <a href="#about-us">About Us</a>
                 <a href="#review">Reviews</a>
                 <a href="javascript:void(0);" class="icon" onclick="onClickedIcon()" id="topNavOnClicked">

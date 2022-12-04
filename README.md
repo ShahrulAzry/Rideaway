@@ -1,60 +1,30 @@
 # Developing a website for my fictional motorbike rental company named "Rideaway!"
 
 Rideaway Rentals, is my fictional, emerging motorbike rental company. A website is then
-developed to showcase our services we provide, which is mainly bike rental.
+developed to showcase our service we provide, which is mainly bike rental. This website
+is for people who are looking to rent a motorbike from a trustworthy company, via a 
+website.
 
-This website is for people who are looking to rent motorbikes online
+## Features and Features Left to Implement
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
-
-## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
-
-## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+My website is a single scrolling page with different sections in between. The sections I have
+created is the Browse, About Us, and Reviews section. There is still room for improvement, as
+I could have implemented more pages and input types like date etc. to choose the dates to book 
+the bikes.
 
 ## Testing
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+I have only tested my site via Google Chrome's Developer Tools. Website looks fine when I resize
+it accordingly, but goes berserk when the screen size goes below 410px x 514px.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+## Credits and Acknowledgement
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+I do not own any photos used in the creation of this website. I have placed the link to every asset I have used here in this section.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Portraits of happy man and woman in Reviews Section: https://previews.123rf.com/images/ferli/ferli1703/ferli170300179/74823064-portrait-of-happy-asian-man-riding-on-motorbike-in-city-street-and-showing-thumb-up.jpg
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.123rf.com%2Fphoto_80162936_portrait-of-happy-asian-woman-using-mobile-phone-while-riding-on-motorbike-in-city-street.html&psig=AOvVaw0FM6UD5U_NQOIc70I_Wnj_&ust=1670249195087000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCPjO_qGR4PsCFQAAAAAdAAAAABAH
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+All bike photos obtained from Vroom Leasing: https://vroomleasing.com.sg/
 
-## Credits
-
-
-### Media
-- The photos used in this site were obtained from ...
-The photos used in this site were obtained from Vroom Leasing. (https://vroomleasing.com.sg/)
-
-### Acknowledgements
+Website video background: https://www.youtube.com/watch?v=7f-aExAWsOs
 
